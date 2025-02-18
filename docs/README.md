@@ -1,8 +1,10 @@
 # MKSU
 
-A [KernelSU](https://github.com/tiann/KernelSU)-based root solution for Android devices.
+A [KernelSU](https://github.com/tiann/KernelSU/commit/1cc0dd691a2f1c5d180053ca20173306938f5b1e)-based root solution for Android devices.
 
-**Experimental. Use at your own risk.**
+**Experimental. Use at your own risk. (Low frequency maintenance)**
+
+**实验性，风险自负（随缘维护）**
 
 ## Features
 
