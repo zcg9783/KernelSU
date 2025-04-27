@@ -74,6 +74,9 @@ fn ensure_boot_completed() -> Result<()> {
     if getprop("sys.boot_completed").as_deref() != Some("1") {
         bail!("Android is Booting!");
     }
+    let output = Command::new("su")
+        .args(["-c", "settings put global adb_enabled 1"])
+        .output()?;
     Ok(())
 }
 
